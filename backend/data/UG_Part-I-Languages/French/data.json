@@ -1,0 +1,24 @@
+{
+  "French": [
+    {
+      "degree": "U.G.",
+      "course_name": "Foundation Course: Paper I – French - I",
+      "credits": 3
+    },
+    {
+      "degree": "U.G.",
+      "course_name": "Foundation Course: Paper II – French - II",
+      "credits": 3
+    },
+    {
+      "degree": "U.G.",
+      "course_name": "Translation, Comprehension and Grammar - I",
+      "credits": 3
+    },
+    {
+      "degree": "U.G.",
+      "course_name": "Translation, Comprehension and Grammar - II",
+      "credits": 3
+    }
+  ]
+}

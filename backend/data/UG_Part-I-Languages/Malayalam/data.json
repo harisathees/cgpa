@@ -1,0 +1,24 @@
+{
+  "Malayalam": [
+    {
+      "degree": "BA/BSc/B.Com/B.B.A/B.C.A/B.Sc. Electronics/ B.Sc. Computer Science Degree -Malayalam",
+      "course_name": "Paper I - Prose, Composition  and Translation",
+      "credits": 3
+    },
+    {
+      "degree": "BA/BSc/B.Com/B.B.A/B.C.A/B.Sc. Electronics/ B.Sc. Computer Science Degree -Malayalam",
+      "course_name": "Paper II - Office Communication Malayalam",
+      "credits": 3
+    },
+    {
+      "degree": "BA/BSc/B.Com/B.B.A/B.C.A/B.Sc. Electronics/ B.Sc. Computer Science Degree -Malayalam",
+      "course_name": "Paper III- Poetry",
+      "credits": 3
+    },
+    {
+      "degree": "BA/BSc/B.Com/B.B.A/B.C.A/B.Sc. Electronics/ B.Sc. Computer Science Degree -Malayalam",
+      "course_name": "Paper 1V - Desktop Publishing and Printing in  Malayalam",
+      "credits": 3
+    }
+  ]
+}

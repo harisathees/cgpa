@@ -1,0 +1,227 @@
+[
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "பொதுத்தமிழ் ;1 - தமிழியல் கல்வி ஆதார வளங்கள்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "English Paper – I",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "இக்கால இலக்கியம்-1",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "நன்னூல் -எழுத்து",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "தமிழில் சிறார் இலக்கியம்/ மனித உரிமைகள்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "பொதுத்தமிழ் ;2 - தமிழ் மொழி அமைப்பியல்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "English Paper – II",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "இக்கால இலக்கியம் -2",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "நன்னூல் -சொல்",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "பொதுத்தமிழ் ;3 - தமிழ் கற்பித்தல்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "English Paper – III",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "அற இலக்கியம்",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "இலக்கணம் – நம்பியகப்பொருள்,புறப்பொருள் வெண்பாமாலை",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 1
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "தொழில் முனைவுத் தமிழ்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "EVS",
+    "credits": null
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "பொதுத்தமிழ் ;4 -தமிழகக் கலைகள்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "English Paper – IV",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "காப்பியங்கள்",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "இலக்கணம் -யாப்பும், அணியும்",
+    "credits": 5
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "திறன் மேம்பாட்டுப் பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "EVS",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "பக்தி இலக்கியம்",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "தொல்காப்பியம் பொருளதிகாரம் – முன் ஐந்து இயல்கள்",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "சிற்றிலக்கியங்கள்",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "சங்க இலக்கியம்-1(அகம்)",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "Value Education",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "Summer Internship /Industrial Training",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "சங்க இலக்கியம்-2(புறம்)",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "தொல்காப்பியம் பொருளதிகாரம் – பின் 4 இயல்கள்",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "இலக்கியத் திறனாய்வு",
+    "credits": 4
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "விருப்பப்பாடங்கள் – பட்டியலில் இருந்து தேர்ந்தெடுக்கவும்",
+    "credits": 3
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "போட்டித் தேர்வுகளுக்குரிய இலக்கிய வரலாறு",
+    "credits": 2
+  },
+  {
+    "degree": "Tamil (For B.A. Tamil Students only)",
+    "course_name": "Extension Activity",
+    "credits": 1
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "degree": "B.Com.",
+    "course_name": "Part I Language–Tamil",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Part II English",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper I–Financial Accounting I",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper II–Principles of Management",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective I – Business Communication",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective I - Indian Economic Development",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective I - Business Economics",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhancement Course SEC– 1 Digital Banking",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhancement Course SEC– 1 MS Office",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Foundation Course FC - Fundamentals of Business Studies",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper III–Financial Accounting II",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper IV-Business Law",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective II - Business Environment",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective II - Insurance and Risk Management",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective II–International Trade",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 2 Internet and its Applications",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 2 Stock Market Operation",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 2 New venture Planning and Development",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Naan Mudhalvan Overview of English Communication",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper V-Corporate Accounting I",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper VI-Company Law",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective III–Business Legislation",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective III–Business Mathematics & Statistics",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective III–E-Commerce",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 4 Computerized Accounting System",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 4 Clearing and Forwarding in Import and Export",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Naan Mudhalvan Goods and Service Tax",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "E.V.S",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper VII–Corporate Accounting II",
+    "credits": 5
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper VIII-Principles of Marketing",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective IV– Financial Services",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective IV–Consumerism & Consumer Protection",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Elective IV-Operations Research",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 5 Fundament of Fin Tech",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Skill Enhance Course SEC– 5 Filing of GST Returns",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Value Education",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Naan Mudhalvan Working Capital Management",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper IX–Cost Accounting I",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper X-Banking Law and Practice",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper XI–Income Tax Law and Practice–I",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper XII–Auditing and Corporate Governance",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Project with viva-voce",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Financial Management",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Research Methodology",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Human Resource Management",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Computer Application in Business",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Naan Mudhalvan Agricultural Economy of India",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Internship/Industrial visit/Field visit/Knowledge Upgradation Activity",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper XIII–Cost Accounting-II",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper XIV-Management Accounting",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Core Paper XV-Income Tax Law and Practice–II",
+    "credits": 4
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Entrepreneurial Development",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Office Management & Secretarial Practice",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Logistics and Supply Chain Management",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Discipline Specific Elective - Spread Sheet for Business",
+    "credits": 3
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Naan Mudhalvan Personal Investment",
+    "credits": 2
+  },
+  {
+    "degree": "B.Com.",
+    "course_name": "Extension Activity",
+    "credits": 1
+  }
+]

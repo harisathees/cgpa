@@ -1,0 +1,24 @@
+{
+  "Arabic": [
+    {
+      "degree": "U.G. AND FIVE YEAR INTEGRATED P.G. DEGREE PROGRAMS",
+      "course_name": "Paper I: Prose",
+      "credits": 3
+    },
+    {
+      "degree": "U.G. AND FIVE YEAR INTEGRATED P.G. DEGREE PROGRAMS",
+      "course_name": "Paper II: Grammar",
+      "credits": 3
+    },
+    {
+      "degree": "U.G. AND FIVE YEAR INTEGRATED P.G. DEGREE PROGRAMS",
+      "course_name": "Communication Skill In Arabic",
+      "credits": 3
+    },
+    {
+      "degree": "U.G. AND FIVE YEAR INTEGRATED P.G. DEGREE PROGRAMS",
+      "course_name": "Quran And Hadith",
+      "credits": 3
+    }
+  ]
+}

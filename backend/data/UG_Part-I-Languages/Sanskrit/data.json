@@ -1,0 +1,24 @@
+{
+  "Sanskrit": [
+    {
+      "degree": "BA, B.COM, BBA, B.SC, B.CA",
+      "course_name": "Paper I - Poetry, Grammar and History of Sanskrit Literature",
+      "credits": 3
+    },
+    {
+      "degree": "BA, B.COM, BBA, B.SC, B.CA",
+      "course_name": "Paper II - Prose, Grammar and History of Sanskrit Literature",
+      "credits": 3
+    },
+    {
+      "degree": "BA, B.COM, BBA, B.SC, B.CA",
+      "course_name": "Paper III - Drama, Grammar and History of Sanskrit Literature",
+      "credits": 3
+    },
+    {
+      "degree": "BA, B.COM, BBA, B.SC, B.CA",
+      "course_name": "Paper IV - Alankara, Didactic and Modern Literatures and Translation",
+      "credits": 3
+    }
+  ]
+}
