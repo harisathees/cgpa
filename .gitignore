@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Environment variables (keep .example files)
+.env
+.env.*
+!.env.example
+docker.env
+!docker.env.example
+
+# Logs
+*.log
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store

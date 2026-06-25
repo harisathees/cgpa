@@ -1,0 +1,227 @@
+[
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Programming with C++",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "C++ Programming Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Statistics for Data Science/ Applied Mathematics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "PHP Scripting Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Artificial Intelligence",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Programming with Python",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Python Programming Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Optimization Techniques / Digital Logic Fundamentals",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Programming with Java",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Java Programming Laboratory",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Artificial Neural Networks / Computer Architecture",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Office Automation Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Naan Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "E.V.S",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Data Base Management Systems",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Data Base Management Systems Laboratory",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Cloud Computing/Human Computer Interaction",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Web Design Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Naan Muthalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Software Engineering",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Machine Learning",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Data Science & Big Data",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Machine Learning Laboratory",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Android Applications Development Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Mini Project",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Cognitive Computing/ Operating Systems",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Internship/ Industrial Visit/ Field Visit/ Knowledge Updation Activity",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "R Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Data Communication & Networking",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "R Programming Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Project",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Pattern Recognition/ Robotics & its Applications",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Computer Graphics/ / Simulation & Modeling/ Graph Theory & its Applications",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Extension Activity",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Naan Muthalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Soft Skills for Employability",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Digital Skills for Employability – Office Fundamentals",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Web Design with HTML",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Internet & E-Commerce",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "C Programming",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Multimedia Laboratory (Using React)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Artificial Intelligence & Data Science",
+        "course_name": "Computational Intelligence",
+        "credits": 3
+    }
+]

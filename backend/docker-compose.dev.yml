@@ -1,0 +1,59 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Development stack for the CGPA backend.
+#
+#   docker compose -f docker-compose.dev.yml up        (or: ./scripts/dev.sh)
+#
+# Brings up MariaDB + the NestJS API with hot-reload. NOT for production.
+# ──────────────────────────────────────────────────────────────────────────────
+services:
+  db:
+    image: mariadb:11
+    container_name: cgpa_db
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-password}
+      MARIADB_DATABASE: ${DB_NAME:-cgpa}
+    ports:
+      - "${DB_PORT:-3306}:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: cgpa_backend
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # Point Prisma at the db service. Override individual vars in .env.
+      DATABASE_URL: "mysql://root:${DB_ROOT_PASSWORD:-password}@db:3306/${DB_NAME:-cgpa}"
+      JWT_SECRET: ${JWT_SECRET:-change-me-to-a-long-random-secret}
+      JWT_EXPIRES_IN: ${JWT_EXPIRES_IN:-7d}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@cgpa.local}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-admin12345}
+      PORT: 3001
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+    ports:
+      - "${PORT:-3001}:3001"
+    volumes:
+      # Bind-mount source for hot-reload, but keep the container's own
+      # node_modules and Prisma client (native binaries differ from the host).
+      - .:/app
+      - /app/node_modules
+      - /app/src/generated
+    # Apply migrations and seed the admin user, then start the watcher.
+    command: >
+      sh -c "npx prisma migrate deploy &&
+             npm run prisma:seed;
+             npm run start:dev"
+
+volumes:
+  db-data:

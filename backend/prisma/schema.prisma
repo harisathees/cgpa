@@ -1,0 +1,80 @@
+// Prisma schema for the CGPA app.
+// Docs: https://pris.ly/d/prisma-schema
+//
+// Database: MySQL. Auth is self-contained (JWT) — the `User` table stores
+// bcrypt-hashed passwords; see src/auth.
+//
+// Connection (see .env / .env.example):
+//   DATABASE_URL = mysql://USER:PASSWORD@HOST:3306/cgpa
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+/// Account role. ADMIN accounts are provisioned only via the seed script;
+/// public sign-up always creates USER accounts.
+enum Role {
+  ADMIN
+  USER
+}
+
+/// An application user (authentication identity).
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  fullName     String?  @map("full_name")
+  role         Role     @default(USER)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  semesters Semester[]
+
+  @@map("users")
+}
+
+/// A single academic semester belonging to a user.
+model Semester {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  /// Human label, e.g. "Fall 2025".
+  name      String
+  /// Sequential semester number (1, 2, 3, ...).
+  number    Int
+  /// Computed GPA for this semester (null until calculated).
+  gpa       Float?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  courses Course[]
+
+  @@unique([userId, number])
+  @@index([userId])
+  @@map("semesters")
+}
+
+/// A course taken within a semester.
+model Course {
+  id         String   @id @default(uuid())
+  semesterId String   @map("semester_id")
+  code       String
+  name       String
+  credits    Int
+  /// Letter grade, e.g. "A", "B+".
+  grade      String?
+  /// Numeric grade point on the institution scale (e.g. 0-10 or 0-4).
+  gradePoint Float?   @map("grade_point")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  semester Semester @relation(fields: [semesterId], references: [id], onDelete: Cascade)
+
+  @@index([semesterId])
+  @@map("courses")
+}

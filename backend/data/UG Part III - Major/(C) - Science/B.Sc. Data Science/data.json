@@ -1,0 +1,177 @@
+[
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Training for Competitive Examinations",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Industrial Statistics",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Part II English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Core Course CC III Programming with Python",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Core Practical: Python Programming Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Elective Course II (General /Discipline Specific) Optimization Techniques / Artificial Neural Networks",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Skill Enhancement Course : Data Structures",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Skill Enhancement Course: Practical: PHP Scripting Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Naan Muthalvan – Language Proficiency for Employability",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Core Practical 1 : C++ Programming Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "DISCRETE MATHEMATICS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "MULTIMEDIA LABORATORY (USING REACT)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "PYTHON PROGRAMMING LABORATORY",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "DATA STRUCTURES SEC 2",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "PHP SCRIPTING LABORATORY",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Java Programming Lab Core",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Web Design Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "DATABASE MANAGEMENT SYSTEMS LABORATORY",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Computer Networks",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Office Automation Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "MACHINE LEARNING",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "MACHINE LEARNING LABORATORY",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Data Mining",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "E-Commerce",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Data Analytics using R Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Project",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Information Security",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Robotics and Its Applications",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Cloud Computing",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Soft Skills for Employability",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Digital Skills for Employability – Office Fundamentals",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Web Design with HTML",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Internet & E-Commerce",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "C Programming",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Data Science",
+        "course_name": "Programming in C",
+        "credits": null
+    }
+]

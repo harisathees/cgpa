@@ -1,0 +1,242 @@
+[
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Language–Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Language–English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "ALGEBRA&TRIGONOMETRY",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "DIFFERENTIAL CALCULUS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "PROGRAMMING IN C WITH PRACTICAL",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Allied Physics I with Practical",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Allied Chemistry I with Practical",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MATHEMATICS FOR COMPETITIVE EXAMINATION I",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Foundation course-Bridge Mathematics",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "ALGEBRA AND DIFFERENTIAL EQUATIONS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "ANALYTICAL GEOMETRY (Two & Three Dimensions)",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "INTEGRAL CALCULUS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "PROGRAMMING IN C++ WITH PRACTICAL",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Allied Physics II with Practical",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Allied Chemistry II with Practical",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "LaTeX",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "VECTOR CALCULUS AND FOURIER SERIES",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "VECTOR CALCULUS AND ITS APPLICATIONS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "DIFFERENTIAL EQUATIONS AND APPLICATIONS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "STATISTICS I",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "DIFFERENCE EQUATIONS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "COMPUTATIONAL MATHEMATICS",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Environmental Studies - EVS",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "SEQUCNCES AND SERIES",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "NUMERICAL METHODS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Statistics II",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "GEOGEBRA",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "ABSTRACT ALGEBRA",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "REAL ANALYSIS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MATHEMATICAL MODELLING",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Number Theory/ Project with Viva-voce",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Internship / Industrial training / Field Visit / Knowledge Updating Activity",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Linear Algebra",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "COMPLEX ANALYSIS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MECHANICS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "DISCRETE MATHEMATICS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "COMBINATORIAL MATHEMATICS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "FUZZY SETS AND APPLICATIONS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "FINANCIAL MATHEMATICS",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "ASTRONOMY",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Data Analytics using powerBI (Edunet)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "Extension Activity",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MATHEMATICS FOR COMPETETIVE EXAMINATION III",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MATHEMATICS FOR COMPETITIVE EXAMINATION IV",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "OFFICE AUTOMATION",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "STATISTICS WITH EXCEL PROGRAMMING",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Mathematics",
+        "course_name": "MATLAB",
+        "credits": 2
+    }
+]

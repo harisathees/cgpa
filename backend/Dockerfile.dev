@@ -1,0 +1,33 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Development image for the CGPA backend (NestJS + Prisma).
+#
+# This image is for LOCAL DEV ONLY: it installs all dependencies (incl. dev)
+# and runs the app with file-watching / hot-reload. Source is bind-mounted at
+# runtime (see docker-compose.dev.yml), so code changes are picked up live.
+# ──────────────────────────────────────────────────────────────────────────────
+FROM node:24-bookworm-slim
+
+# openssl is required by Prisma's query engine; the rest help native modules
+# (bcrypt, mariadb) build cleanly when a prebuilt binary isn't available.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends openssl python3 make g++ \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install dependencies first so this layer is cached across source changes.
+# `postinstall` runs `prisma generate`; the schema is needed for that.
+COPY package.json package-lock.json ./
+COPY prisma ./prisma
+COPY prisma.config.ts tsconfig.json ./
+RUN npm ci
+
+# Remaining source is bind-mounted by compose in dev; copying it here keeps the
+# image runnable on its own too.
+COPY . .
+
+EXPOSE 3001
+
+# Default command; overridden by docker-compose.dev.yml so migrations/seed run
+# before the watcher starts.
+CMD ["npm", "run", "start:dev"]

@@ -1,0 +1,242 @@
+[
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Descriptive Statistics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Probability Theory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Mathematics for Statistics-I",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistics Practical-I",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Basics of Statistics using MS-Excel",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Office Automation",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Matrix and Linear Algebra",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Distribution Theory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Real Analysis",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistics Practical-II",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Mathematics for Statistics-II",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Programming in C++",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Nann Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Estimation Theory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Sampling Techniques",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Numerical Methods (Discipline Specific)",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistical Practical - III",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Nann Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Environmental Studies",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Language English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Testing of Statistical Hypothesis",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Actuarial Statistics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Economic & Official Statistics (Discipline Specific)",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistics Practical - IV",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Nann Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Stochastic Processes",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Regression Analysis",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistics Practical - V",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Project with Viva voce",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Operations Research (Discipline Specific)",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Econometrics / Population Studies",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Nann Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Internship / Industrial Training / Field visit / Knowledge updating",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Design of Experiments",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Demography",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistics Practical - VI",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Statistical Quality Control",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Time Series / Index numbers",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Nann Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Statistics",
+        "course_name": "Extension Activity",
+        "credits": 1
+    }
+]

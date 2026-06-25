@@ -1,0 +1,257 @@
+[
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core 1: Object Oriented Programming using C++",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: C++ Programming Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective Course 1 Numerical Methods/ Discrete Mathematics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC-1 Multimedia Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Foundation Course: Fundamentals of Information Technology",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core 2: JAVA PROGRAMMING",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: Java Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective Course 2 Optimization Techniques / Trends in Computing",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 2: PHP Scripting Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 3:Quantitative Aptitude",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Naan Muthalvan – Language Proficiency for Employability",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course- Data Structures and Algorithms",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: Data Structures and Algorithms Lab",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective :Computational Intelligence/Computer Networks",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 4: Practical: Web Application & Development Laboratory",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 5 - Naan Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "E.V.S",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course - Python Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: - Python Programming Laboratory",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective-Image Processing/ Cloud Computing",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 6 Practical: Android Applications Development Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "SEC 7 Naan Muthalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course 5 1 Software Engineering",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course 5 2 Machine Learning",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course 5 3 Database Management Systems",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: Machine Learning Laboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Mini Project",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective 5 1 Human Computer Interaction/Data Mining and Data Warehousing",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Naan Muthalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Internship/ Industrial Visit / Field Visit",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course 6 1 R Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Course 6 2 Simulation & Modeling",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Core Practical: R ProgrammingLaboratory",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Project",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective 6.1 Robotics and its Applications/ Pattern Recognition",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Elective 6.2 Cyber Security/ Fuzzy Logic",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Extension Activity",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Soft Skills for Employability",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Digital Skills for Employability – Office Fundamentals",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Web Designing",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "Internet Basics",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Computer Science & Information Technology",
+        "course_name": "C Programming",
+        "credits": null
+    }
+]

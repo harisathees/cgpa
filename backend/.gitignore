@@ -1,0 +1,22 @@
+node_modules
+
+# Compiled output
+/dist
+/build
+
+# Prisma generated client (regenerated via `npm run prisma:generate`)
+/src/generated
+
+# Keep environment variables out of version control
+.env
+.env.*
+!.env.example
+# Docker dev env: ignore the real file, keep the committed example
+docker.env
+!docker.env.example
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store

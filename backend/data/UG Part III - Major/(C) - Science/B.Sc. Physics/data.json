@@ -1,0 +1,272 @@
+[
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory1–Properties ofMatterandAcoustics",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical1–PhysicsPractical I",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedTheory 1–AlliedMathematics I",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SkillEnhancementCourseSEC-1PHYSICSFOR EVERYDAYLIFE",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "FoundationCourse – Introductory Physics",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory2 –Heat, Thermodynamics and Statistical Physics",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical2–PhysicsPractical II",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedTheory2–AlliedMathematics II",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SkillEnhancementCourse-SEC-2ASTROPHYSICS",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SkillEnhancementCourse-SEC-3(Discipline/Subject Specific) – Physics for Competitive Examinations",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NaanMuthalvan/ Basic Physics",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory3–Mechanics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical3–PhysicsPractical III",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedTheory 1– AlliedChemistry I",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedPractical 1–AlliedChemistryPractical I",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SkillEnhancementCourse-SEC-4(Maintenance of Electricalappliances)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NaanMuthalvan /(Instrumentationphysics I)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "EVS",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory4–Optics andLaserPhysics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical4–PhysicsPractical IV",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedTheory 2– AlliedChemistry II",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "AlliedPractical 2–AlliedChemistryPractical II",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SkillEnhancementCourse-SEC-5(Maintenanceof Electronicappliances)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NaanMuthalvan / InstrumentationPhysics II",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "Value Based Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory5–Electricity,Magnetism andElectromagnetism",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory6–Atomic and NuclearPhysics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory7 – AnalogandCommunication Electronics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical5–Physics Practical V",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical 6 –Physics Practical VI",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "Core–Project (Group)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ElectiveCourse1 (Generic/DisciplineSpecific) EC1",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "Internship/IndustrialVisit/FieldVisit/Knowledge Updating Activity",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NaanMuthalvan / MODERN PHYSICS",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory8– Relativity and Quantum Mechanics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory9–Solid StatePhysics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CoreTheory10–DigitalElectronics andMicroprocessor8085",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical7 –PhysicsPractical VII",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "CorePractical8 –PhysicsPractical VIII",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ElectiveCourse 2(Generic/SubjectSpecific)EC 2",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NaanMuthalavan / APPLIED PHYSICS",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ExtensionActivity,NSS/NCC/YRC/PhysicalEducation (OutsideCollegeHours)",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "SPECTROSCOPY",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "MATHEMATICAL PHYSICS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "PYTHON PROGRAMMING AND BASICS OF AI & DATA SCIENCE",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ENERGY PHYSICS",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "MATERIALS SCIENCE",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "NANOSCIENCE AND NANO TECHNOLOGY",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ALLIED PRACTICAL– I",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "ALLIED PRACTICAL– II",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "INSTRUMENTATION PHYSICS - I",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Physics",
+        "course_name": "INSTRUMENTATION PHYSICS – 2",
+        "credits": 2
+    }
+]

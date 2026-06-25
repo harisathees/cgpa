@@ -1,0 +1,212 @@
+[
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-I Programming in C",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-II [LAB] C Programming Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-I Numerical Methods/Discrete Mathematics",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Skill Enhancement Course – I [LAB] Office Automation - Practical",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Foundation Course Fundamentals of Computers",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-III Java Programming",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-IV [LAB] Java Programming Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-II Optimization Techniques / Data Structures",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Skill Enhancement Course – II [LAB] PHP Scripting Practical",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Skill Enhancement Course – IIII Introduction to Internet",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Naan Mudhalvan(Soft Skill)",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-V Python Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-VI [LAB] Python Programming - Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-III Digital Logic Fundamentals / Computer Architecture",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Skill Enhancement Course – IV [LAB] HTML & Web Designing - Practical",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Naan Mudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Environmental Studies",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-VII Operating System",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-VIII [LAB] Mobile Application Development - Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-IV Internet of Things and its Applications/ Human Computer Interaction",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Skill Enhancement Course – V [LAB] Multimedia using React - Practical",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-IX Database Systems",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-X Machine Learning",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XI [LAB] Database Systems - Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XII [LAB] Machine Learning - Practical",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-V Computer Networks/ Data Mining",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-VI Cryptography & Network Security/ Artificial Intelligence",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Internship/Industrial Visit/Field Visit/Knowledge updation activity",
+        "credits": 1
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XIII Software Engineering",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XIV Digital Image Processing",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XV [LAB] Image Processing using Scilab - Practical",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Core-XVI [PRJ] Project with Viva voce",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-VII Trends inComputing /Big Data Analytics",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Elective-VIII Natural Language Processing / Cyber",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Soft skills for Employability",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Digital skills for Employability",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Introduction to Industry 4.0",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Social Network",
+        "credits": null
+    },
+    {
+        "degree": "B.Sc. Information Technology",
+        "course_name": "Software Testing",
+        "credits": null
+    }
+]

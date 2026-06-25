@@ -1,0 +1,357 @@
+[
+    {
+        "degree": "B.C.A.",
+        "course_name": "Language–Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses2(CC1, CC2)",
+        "credits": 10
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourse1( Generic/Discipline Specific)EC1",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourseSEC-1(NonMajor Elective)",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "FoundationCourseFC",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses2(CC3, CC4)",
+        "credits": 10
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourse1(Generic/DisciplineSpecific) EC2",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC-2(NonMajor Elective)",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC-3(DisciplineSpecific/Generic)",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses2(CC5, CC6)",
+        "credits": 10
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourse1( Generic/Discipline Specific)EC3",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC-4(EntrepreneurialBased)",
+        "credits": 1
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC-5(DisciplineSpecific/Generic)",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EnvironmentalStudies(EVS)",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses2(CC7, CC8)",
+        "credits": 10
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC7:Core IndustryModule -1-Industrial Statistics",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC8 :AnyCore paper",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourse1(Generic /Discipline Specific)EC4",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC6",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SkillEnhancementCourse-SEC-7(DisciplineSpecific/Generic)",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EnvironmentalStudiesEVS",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses3(CC9,CC10, CC11)",
+        "credits": 12
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourses2(Generic/DisciplineSpecific)EC5,EC6",
+        "credits": 6
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Core/ProjectwithVivavoceCC12",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Internship/IndustrialTraining",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CoreCourses3 (CC13,CC14, CC15)",
+        "credits": 12
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ElectiveCourses2(Generic/DisciplineSpecific)EC7,EC8",
+        "credits": 6
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ProfessionalCompetencySkillEnhancementCourseSE8",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "ExtensionActivity",
+        "credits": 1
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC1 Python Programming",
+        "credits": 5
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC2 Python Lab",
+        "credits": 5
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC1 Discrete Mathematics-I/Numerical Methods",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SEC1 Office Automation Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "FC Fundamentals of Information Technology",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC5 Data Structures and Algorithms",
+        "credits": 5
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC6 Data Structures and Algorithms using C++ Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC3 Microprocessor and Microcontroller/Cyber Forensics",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SEC4 PHP Programming Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "AECC2 NaanMudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EnvironmentalStudies",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC7 Java Programming",
+        "credits": 5
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC8 Java Programming Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC4 Financial Accounting/Cloud Computing",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "SEC5 Multimedia Systems Lab",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "AECC3 NaanMudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC9 Operating Systems",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC10 ASP.Net Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC11 ASP .Net Programming Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC12 Project with Viva Voce",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC5 Software Project Management /Agile Project Management",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC6 Artificial Intelligence/Machine Learning",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "AECC4 NaanMudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Internship/Industrial Visit/Field Visit/Knowledge Updation Activity",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC13 RDBMS with PL/SQL",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC14 Image Processing",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "CC15 PL/SQL Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC7 Robotics and Its Applications/ Computer Networks",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "EC8 Introduction to Data Science/Data Mining and Warehousing",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "AECC5 NaanMudhalvan",
+        "credits": 2
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Understanding IT",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Organizational Behaviour",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Advanced Excel",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Problem Solving Techniques",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Open Source Software Technologies",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "DISCRETE MATHEMATICS - I",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "DIGITAL LOGIC FUNDAMENTALS",
+        "credits": null
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Microprocessor and Microcontroller",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "Cloud Computing",
+        "credits": 3
+    },
+    {
+        "degree": "B.C.A.",
+        "course_name": "HTML LAB",
+        "credits": null
+    }
+]

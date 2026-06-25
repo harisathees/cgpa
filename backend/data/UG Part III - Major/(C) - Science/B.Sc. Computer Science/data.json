@@ -1,0 +1,237 @@
+[
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Language–Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC 1-PythonProgramming",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC2-Practical- Python Programming",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course(EC-1)(Generic /Discipline Specific) – Digital Logic Fundamental",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill EnhancementCourse-SEC-1 Practical-Office Automation",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Foundation Course FC – Problem Solving Techniques",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Language-Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC3-Data Structure and Algorithms",
+        "credits": 5
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC4-Practical - Data Structure and Algorithms",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course(EC2) (Generic /Discipline Specific) – Discrete Mathematics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "SkillEnhancementCourse-SEC-2 Practical -HTML",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill EnhancementCourse–SEC-3(Discipline Specific / Generic) Computer Architecture",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Naan Muthalvan Course –English/Soft skills for Employability",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC 5 -Programming in C++",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC6 - Practical-Programming in c++",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course(EC 3) (Generic / Discipline Specific) - EC3 – Choose any one – IOT and it's applications/Introduction to data science/ Micro Processor and Micro Controller",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill Enhancement Course -SEC-4 (Entrepreneurial Based) – Practical -PHP Programming",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill Enhancement Course -SEC-5 Naan Muthalvan /HTML",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Environmental Studies",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Language – Tamil",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "English",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC7 - Java Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC8 - Practical- Java Programming",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course (EC4) (Generic / Discipline Specific) Choose any one – Resource Management Techniques/ Analytics for Service Industry/Biometrics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill Enhancement Course – SEC-6 - Practical - Advanced Excel",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Skill Enhancement Course - SEC-7 – Naan Muthalvan /Internet fundamentals",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Value Education",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC9 - Software Engineering",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC10 - Database Management System",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC11 - Image Processing",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC12 - Practical: Image Processing Lab",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course – EC5 (Generic / Discipline Specific) – Choose any one -Cloud Computing /Data Analytics using R/ Natural Language Processing",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC13 - Mini Project with viva voce- Case Studies related to DBMS",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Naan Muthalvan / Office Automation",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Internship / Industrial Training / field visit/knowledge updation activities",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC14 - Computer Networks",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC15 - .NET Programming",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC16 - Operating System",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC17 - Practical: .NET Programming Lab(ASP.NET)",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Elective Course (EC6) (Generic / Discipline Specific) – Choose any one – Artificial Intelligence/ Artificial Neural Network/Cyber Forensics",
+        "credits": 3
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "CC18 - Core /Major Project with Viva voce",
+        "credits": 4
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Professional Competency Skill Enhancement Course SEC8 /Naan Muthalvan / Programming in C",
+        "credits": 2
+    },
+    {
+        "degree": "B.Sc. Computer Science",
+        "course_name": "Extension Activity NSS/NCC/YRC/RRC/SPORTS/OUTREACH PROGRAM",
+        "credits": 2
+    }
+]
