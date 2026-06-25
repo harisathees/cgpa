@@ -27,17 +27,26 @@ $RepoUrl = 'https://github.com/harisathees/cgpa.git'
 function Step($msg) { Write-Host "`n==> $msg" -ForegroundColor Cyan }
 function Die($msg)  { Write-Host "!!! $msg"   -ForegroundColor Red; exit 1 }
 
+# Run a native command (git/npm) so its normal stderr output — progress like
+# "Cloning into '...'" — does NOT trip $ErrorActionPreference = 'Stop' and abort
+# the script. Success/failure is judged solely by the exit code afterwards.
+function Invoke-Native([scriptblock]$Block) {
+    $prev = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
+    try { & $Block } finally { $ErrorActionPreference = $prev }
+}
+
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) { Die 'git is not installed.' }
 
 Step "Cloning $RepoUrl"
 if (Test-Path (Join-Path $TargetDir '.git')) {
     Write-Host "    '$TargetDir' already cloned — pulling latest."
-    git -C $TargetDir pull --ff-only
+    Invoke-Native { git -C $TargetDir pull --ff-only }
     if ($LASTEXITCODE -ne 0) { Die 'git pull failed.' }
 } elseif (Test-Path $TargetDir) {
     Die "'$TargetDir' already exists and is not a git repo."
 } else {
-    git clone $RepoUrl $TargetDir
+    Invoke-Native { git clone $RepoUrl $TargetDir }
     if ($LASTEXITCODE -ne 0) { Die 'git clone failed.' }
 }
 

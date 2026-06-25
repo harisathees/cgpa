@@ -28,12 +28,18 @@ function Warn($msg) { Write-Host "    $msg"   -ForegroundColor Yellow }
 function Die($msg)  { Write-Host "!!! $msg"   -ForegroundColor Red; exit 1 }
 
 # Run a command in a directory; abort if it returns a non-zero exit code.
+# ErrorActionPreference is relaxed to 'Continue' for the call so that normal
+# stderr output (e.g. npm deprecation warnings) is not turned into a terminating
+# NativeCommandError; real failures are detected via $LASTEXITCODE.
 function Invoke-In($dir, $exe, [string[]]$cmdArgs) {
     Push-Location $dir
+    $prev = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
     try {
         & $exe @cmdArgs
         if ($LASTEXITCODE -ne 0) { Die "`"$exe $($cmdArgs -join ' ')`" failed (exit $LASTEXITCODE)." }
     } finally {
+        $ErrorActionPreference = $prev
         Pop-Location
     }
 }
