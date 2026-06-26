@@ -1,0 +1,10 @@
+# Keep CRLF line endings for Windows batch launchers on checkout, so they run
+# correctly on Windows regardless of the committer's platform.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# PowerShell scripts also prefer CRLF on Windows.
+*.ps1 text eol=crlf
+
+# Shell scripts must stay LF or they won't run on macOS/Linux.
+*.sh text eol=lf

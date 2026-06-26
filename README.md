@@ -15,6 +15,32 @@ accessed through Prisma using the MariaDB driver adapter.
 - Node.js 20+
 - A MySQL 8 database
 
+## Quick start
+
+One command installs dependencies, sets up env files, and runs Prisma
+migrations + seed for both backend and frontend.
+
+**macOS / Linux:**
+
+```bash
+./setup.sh        # in an existing checkout
+./bootstrap.sh    # or this to clone + set up from scratch
+```
+
+**Windows:**
+
+Double-click **`bootstrap.cmd`** (or run it from a terminal). It launches the
+PowerShell script with an execution-policy bypass scoped to that one process, so
+Windows won't block it.
+
+> Running `bootstrap.ps1` directly often fails with *"running scripts is
+> disabled on this system"* — that's Windows' default execution policy, not a
+> bug in the script. Use `bootstrap.cmd`, or run it yourself with:
+>
+> ```powershell
+> powershell -NoProfile -ExecutionPolicy Bypass -File .\bootstrap.ps1
+> ```
+
 ## Backend (`backend/`)
 
 ```bash
