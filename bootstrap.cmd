@@ -1,27 +1,21 @@
 @echo off
-REM ============================================================================
+REM ===========================================================================
 REM  CGPA bootstrap launcher (Windows).
 REM
-REM  Double-click this file, or run it from cmd/Explorer. It launches the
-REM  PowerShell bootstrap with an execution-policy bypass scoped to this single
-REM  process, so Windows won't block the .ps1 ("running scripts is disabled on
-REM  this system" / Mark-of-the-Web). It does NOT change any system-wide policy.
-REM ============================================================================
+REM  Double-click this file, or run it from cmd/Explorer. It runs the PowerShell
+REM  bootstrap with an execution-policy bypass scoped to this one process, so
+REM  Windows won't block the .ps1. It changes no system-wide setting.
+REM ===========================================================================
 
 setlocal
-REM Prefer Windows PowerShell 5.1; fall back to PowerShell 7+ (pwsh) if present.
-set "PS=powershell"
-where powershell >nul 2>nul || set "PS=pwsh"
+pushd "%~dp0"
 
-"%PS%" -NoProfile -ExecutionPolicy Bypass -File "%~dp0bootstrap.ps1" %*
-set "EXITCODE=%ERRORLEVEL%"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "bootstrap.ps1"
+set "RC=%ERRORLEVEL%"
 
+popd
 echo.
-if not "%EXITCODE%"=="0" (
-    echo Bootstrap exited with code %EXITCODE%.
-) else (
-    echo Bootstrap finished.
-)
+echo Bootstrap exited with code %RC%.
 echo Press any key to close this window . . .
 pause >nul
-exit /b %EXITCODE%
+exit /b %RC%
