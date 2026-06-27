@@ -1,8 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+/* MSU CGPA Portal — print/result statement styles */
+.portal-body {
+  font-family: 'Signika Negative', sans-serif;
+  background-color: #e2e8f0;
+}
+.print-container {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid #cbd5e1;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .print-container {
+    width: 210mm;
+    min-height: 297mm;
+  }
+}
+.portal-table,
+.portal-table th,
+.portal-table td {
+  border: 1px solid #64748b !important;
+}
+@media print {
+  .ad-slot,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
 }
 
 @theme inline {

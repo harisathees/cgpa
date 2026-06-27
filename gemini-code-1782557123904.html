@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSU Exam Result Portal & CGPA Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Signika Negative', sans-serif;
+            background-color: #e2e8f0;
+        }
+        .print-container {
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            border: 1px solid #cbd5e1;
+            position: relative;
+        }
+        @media (min-width: 768px) {
+            .print-container {
+                width: 210mm;
+                min-height: 297mm;
+            }
+        }
+        table, th, td {
+            border: 1px solid #64748b !important;
+        }
+        /* Hide ad slots when printing the statement */
+        @media print {
+            .ad-slot {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="py-4 md:py-6 px-1.5 sm:px-4 overflow-x-hidden">
+
+    <div class="max-w-5xl md:max-w-[210mm] mx-auto mb-4 bg-slate-900 text-white p-3 sm:p-4 rounded-xl flex flex-col sm:flex-row gap-3 items-center justify-between shadow-md">
+        <div class="text-center sm:text-left">
+            <h2 class="font-bold text-xs sm:text-sm text-blue-400">MSU Multi-College CGPA Engine</h2>
+            <p class="text-[10px] sm:text-xs text-slate-400">Select your course parameters or dynamically search and inject subjects below.</p>
+        </div>
+        <div class="flex gap-2 w-full sm:w-auto justify-center">
+            <button onclick="resetPortal()" class="w-full sm:w-auto bg-slate-700 hover:bg-slate-600 text-[11px] font-bold px-4 py-1.5 rounded transition-all">Clear Form</button>
+        </div>
+    </div>
+
+    <div class="ad-slot max-w-5xl md:max-w-[210mm] mx-auto mb-4 bg-slate-200/80 border border-slate-300 rounded p-2 flex items-center justify-center min-h-[60px] sm:min-h-[90px] text-center">
+        <span class="text-[10px] uppercase tracking-wider text-slate-400 font-bold">[ Place Top Advertisement Code Here - e.g., 728x90 / 320x50 ]</span>
+    </div>
+
+    <div class="print-container max-w-5xl md:max-w-[210mm] mx-auto p-3 sm:p-6 rounded-sm w-full box-border">
+        
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:items-start border-b border-slate-300 pb-3 gap-3 text-center sm:text-left relative">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 bg-slate-100 border border-slate-300 rounded flex items-center justify-center text-[9px] font-bold text-slate-400 p-1 order-2 sm:order-1">
+                MSU CREST
+            </div>
+            
+            <div class="text-center flex-1 px-1 order-1 sm:order-2">
+                <h1 class="text-[#008000] text-base sm:text-xl font-bold tracking-wide" style="font-family: 'Arial Unicode MS', sans-serif;">மனோன்மணியம் சுந்தரனார் பல்கலைக்கழகம்</h1>
+                <h2 class="text-[#000080] text-base sm:text-xl font-bold uppercase tracking-tight mt-0.5">Manonmaniam Sundaranar University</h2>
+                <p class="text-slate-600 text-[10px] sm:text-[11px] font-medium mt-1">Reaccredited with 'A' Grade (CGPA 3.13 Out of 4.0) by NAAC (3rd Cycle)</p>
+                <p class="text-slate-500 text-[10px] sm:text-[11px]">Tirunelveli - 627012, Tamil Nadu, India</p>
+            </div>
+
+            <div class="w-14 h-14 sm:w-[72px] sm:h-[72px] rounded-full border border-slate-400 overflow-hidden bg-slate-50 flex items-center justify-center order-3">
+                <img src="https://images.imageshack.us/a/img923/631/gX9YhH.png" alt="Prof. Manonmaniam Sundaranar" class="w-full h-full object-cover transform scale-110 object-top">
+            </div>
+        </div>
+
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-[11px] sm:text-xs border border-slate-300 p-2 sm:p-3 bg-slate-50/50 rounded-sm">
+            <div class="flex items-center"><span class="w-28 sm:w-36 font-bold text-slate-700">Registration No</span><span class="mr-1.5">:</span><input type="text" id="reg-no" placeholder="Enter Registration Number" class="bg-transparent border-none border-b border-slate-300 focus:border-blue-500 focus:outline-none font-mono font-bold text-slate-800 w-full pb-0.5"></div>
+            <div class="flex items-center"><span class="w-28 sm:w-36 font-bold text-slate-700">Course Code & Name</span><span class="mr-1.5">:</span>
+                <select id="course-select" class="bg-transparent border-none border-b border-slate-300 sm:border-none focus:outline-none font-bold text-slate-800 w-full cursor-pointer pb-0.5">
+                    <option value="06S">06S & B.Sc. COMPUTER SCIENCE</option>
+                    <option value="02B">02B & B.Com. COMMERCE</option>
+                    <option value="01A">01A & B.A. ENGLISH</option>
+                </select>
+            </div>
+            <div class="flex items-center"><span class="w-28 sm:w-36 font-bold text-slate-700">Student Name</span><span class="mr-1.5">:</span><input type="text" id="student-name" placeholder="ENTER NAME" class="bg-transparent border-none border-b border-slate-300 focus:border-blue-500 focus:outline-none font-bold text-slate-800 uppercase w-full pb-0.5"></div>
+            <div class="flex items-center"><span class="w-28 sm:w-36 font-bold text-slate-700">Batch / Regulation</span><span class="mr-1.5">:</span><span class="font-bold text-slate-800 text-[10px] sm:text-xs">2023-2024 (Affiliated Colleges)</span></div>
+            <div class="flex items-center md:col-span-2"><span class="w-28 sm:w-36 font-bold text-slate-700">College Code & Name</span><span class="mr-1.5">:</span><input type="text" id="college-info" placeholder="Enter College Code & Name" class="bg-transparent border-none border-b border-slate-300 focus:border-blue-500 focus:outline-none font-bold text-slate-800 w-full pb-0.5"></div>
+        </div>
+
+        <div class="mt-3 bg-slate-50 p-2 border border-dashed border-slate-400 flex flex-col sm:flex-row gap-2 items-center rounded">
+            <span class="text-[11px] sm:text-xs font-bold text-slate-600 whitespace-nowrap">🔍 Inject Course Code:</span>
+            <div class="flex gap-2 w-full">
+                <input type="text" id="search-input" placeholder="e.g. CC14, E5EA61, EMCS51..." class="w-full px-2 py-1 text-[11px] sm:text-xs border border-slate-300 rounded font-mono uppercase focus:outline-none focus:border-blue-500">
+                <button onclick="injectSubject()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs px-4 py-1.5 rounded transition-all">Add</button>
+            </div>
+        </div>
+
+        <div class="mt-3 grid grid-cols-3 gap-1.5 text-center">
+            <div class="bg-blue-50 border border-blue-200 p-1.5 rounded">
+                <span class="block text-[8px] sm:text-[10px] font-bold text-blue-800 uppercase tracking-wider">Cumulative CGPA</span>
+                <span id="live-cgpa" class="text-sm sm:text-xl font-black text-blue-900">0.00</span>
+            </div>
+            <div class="bg-emerald-50 border border-emerald-200 p-1.5 rounded">
+                <span class="block text-[8px] sm:text-[10px] font-bold text-emerald-800 uppercase tracking-wider">Part III Pct</span>
+                <span id="live-part3" class="text-sm sm:text-xl font-black text-emerald-900">0.0%</span>
+            </div>
+            <div class="bg-slate-50 border border-slate-200 p-1.5 rounded">
+                <span class="block text-[8px] sm:text-[10px] font-bold text-slate-600 uppercase tracking-wider">Credits</span>
+                <span id="live-credits" class="text-sm sm:text-xl font-black text-slate-800">0/144</span>
+            </div>
+        </div>
+
+        <div class="ad-slot mt-4 bg-slate-100 border border-slate-200 rounded p-1.5 flex items-center justify-center min-h-[50px] text-center">
+            <span class="text-[9px] uppercase tracking-wider text-slate-400 font-bold">[ Place Mid-Page Inline Advertisement Here ]</span>
+        </div>
+
+        <div class="mt-4 w-full">
+            <table class="w-full text-left text-[10px] sm:text-xs font-semibold table-fixed border-collapse">
+                <thead>
+                    <tr class="bg-slate-100 text-slate-800 uppercase text-[9px] sm:text-[11px] font-bold">
+                        <th class="p-1 sm:p-2 text-center w-[6%]">S.No</th>
+                        <th class="p-1 sm:p-2 w-[18%]">Code</th>
+                        <th class="p-1 sm:p-2 w-[34%]">Subject Title</th>
+                        <th class="p-1 sm:p-2 w-[8%] text-center">Sem</th>
+                        <th class="p-1 sm:p-2 w-[10%] text-center">Part</th>
+                        <th class="p-1 sm:p-2 w-[8%] text-center">Crd</th>
+                        <th class="p-1 sm:p-2 w-[16%] text-center">Grade</th>
+                        <th class="p-1 sm:p-2 w-[10%] text-center">Res</th>
+                    </tr>
+                </thead>
+                <tbody id="ledger-rows" class="text-slate-700 divide-y divide-slate-300">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-4 text-center text-[10px] sm:text-[11px] font-bold text-slate-500 tracking-widest uppercase">
+            -- End of the Statement --
+        </div>
+
+        <div class="mt-4 grid grid-cols-1 lg:grid-cols-12 gap-3 items-start">
+            <div class="lg:col-span-8">
+                <table class="w-full text-[9px] sm:text-[10px] text-center border-collapse font-bold table-fixed">
+                    <thead>
+                        <tr class="bg-slate-50 text-[8px] sm:text-[9px] text-slate-600">
+                            <th class="p-0.5 w-[8%]">S.No</th>
+                            <th class="p-0.5 w-[32%]">Percentage</th>
+                            <th class="p-0.5 w-[15%]">Grade</th>
+                            <th class="p-0.5 w-[15%]">Point</th>
+                            <th class="p-0.5 w-[30%]">Performance</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-slate-700">
+                        <tr><td class="p-0.5">1</td><td class="p-0.5">90 - 100</td><td class="p-0.5 font-bold">O</td><td class="p-0.5">10</td><td class="p-0.5 font-normal truncate">Outstanding</td></tr>
+                        <tr><td class="p-0.5">2</td><td class="p-0.5">80 - 89</td><td class="p-0.5 font-bold">A+</td><td class="p-0.5">9</td><td class="p-0.5 font-normal truncate">Excellent</td></tr>
+                        <tr><td class="p-0.5">3</td><td class="p-0.5">70 - 79</td><td class="p-0.5 font-bold">A</td><td class="p-0.5">8</td><td class="p-0.5 font-normal truncate">Very Good</td></tr>
+                        <tr><td class="p-0.5">4</td><td class="p-0.5">60 - 69</td><td class="p-0.5 font-bold">B+</td><td class="p-0.5">7</td><td class="p-0.5 font-normal truncate">Good</td></tr>
+                        <tr><td class="p-0.5">5</td><td class="p-0.5">50 - 59</td><td class="p-0.5 font-bold">B</td><td class="p-0.5">6</td><td class="p-0.5 font-normal truncate">Above Avg</td></tr>
+                        <tr><td class="p-0.5">6</td><td class="p-0.5">40 - 49</td><td class="p-0.5 font-bold">C</td><td class="p-0.5">5</td><td class="p-0.5 font-normal truncate">Pass</td></tr>
+                        <tr><td class="p-0.5">7</td><td class="p-0.5">0 - 39</td><td class="p-0.5 font-bold">RA</td><td class="p-0.5">-</td><td class="p-0.5 font-normal truncate">ReAppear</td></tr>
+                        <tr><td class="p-0.5">8</td><td class="p-0.5">Absent</td><td class="p-0.5 font-bold">AA</td><td class="p-0.5">-</td><td class="p-0.5 font-normal truncate">Absent</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="lg:col-span-4 text-[8px] sm:text-[9px] text-slate-500 leading-tight border border-slate-300 p-2 bg-slate-50 rounded">
+                <p class="font-bold uppercase text-slate-600 mb-0.5">Note Notification:</p>
+                <p class="mb-1">The results published here are for immediate information to the examinees. This cannot be treated as original mark sheets.</p>
+                <p class="font-bold">(hints P-Pass, WW-With Held, MM-Malpractice, RA-Re Appear, AA-Absent)</p>
+            </div>
+        </div>
+
+        <div class="ad-slot mt-6 bg-slate-100 border border-slate-200 rounded p-1.5 flex items-center justify-center min-h-[50px] text-center">
+            <span class="text-[9px] uppercase tracking-wider text-slate-400 font-bold">[ Place Bottom Advertisement Code Here ]</span>
+        </div>
+
+        <div class="mt-6 flex justify-center gap-4">
+            <button onclick="window.print()" class="w-full sm:w-auto bg-[#2463eb] hover:bg-[#1d4ed8] text-white font-bold text-xs px-6 py-2 rounded shadow transition-all uppercase tracking-wider">
+                Print Statement
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        const gradesMapping = { 'O': 10, 'A+': 9, 'A': 8, 'B+': 7, 'B': 6, 'C': 5, 'RA': 0, 'AA': 0 };
+        let currentActiveDataset = [];
+
+        function buildPortalInterface() {
+            const tableBody = document.getElementById('ledger-rows');
+            tableBody.innerHTML = "";
+
+            currentActiveDataset.forEach((course, index) => {
+                const tr = document.createElement('tr');
+                tr.id = `row-${index}`;
+                tr.className = "hover:bg-slate-50 transition-all font-medium text-slate-800";
+                
+                tr.innerHTML = `
+                    <td class="p-1 sm:p-1.5 text-center text-slate-500 font-normal">${index + 1}</td>
+                    <td class="p-1 sm:p-1.5 font-mono uppercase tracking-tight text-slate-600 text-[9px] sm:text-xs truncate">${course.code}</td>
+                    <td class="p-1 sm:p-1.5 text-[10px] sm:text-xs text-slate-700 font-bold truncate">${course.title}</td>
+                    <td class="p-1 sm:p-1.5 text-center text-slate-500">${course.sem}</td>
+                    <td class="p-1 sm:p-1.5 text-center"><span class="bg-slate-100 text-slate-600 font-bold text-[8px] sm:text-[9px] px-0.5 sm:px-1 py-0.5 rounded">P-${course.part}</span></td>
+                    <td class="p-1 sm:p-1.5 text-center font-bold text-slate-600">${course.credit}</td>
+                    <td class="p-1 sm:p-1.5 text-center">
+                        <select id="select-grade-${index}" onchange="evaluateRow(${index})" class="w-full max-w-[65px] bg-white border border-slate-300 rounded font-bold text-[10px] sm:text-xs p-0.5 focus:outline-none focus:border-blue-500">
+                            <option value="">-</option>
+                            <option value="O">O</option><option value="A+">A+</option><option value="A">A</option>
+                            <option value="B+">B+</option><option value="B">B</option><option value="C">C</option>
+                            <option value="RA">RA</option><option value="AA">AA</option>
+                        </select>
+                    </td>
+                    <td id="result-badge-${index}" class="p-1 sm:p-1.5 text-center font-black text-[10px] sm:text-xs">-</td>
+                `;
+                tableBody.appendChild(tr);
+            });
+            executeEngineCalculations();
+        }
+
+        function evaluateRow(index) {
+            const grade = document.getElementById(`select-grade-${index}`).value;
+            const resultCell = document.getElementById(`result-badge-${index}`);
+            
+            if (!grade || grade === 'RA' || grade === 'AA') {
+                resultCell.innerText = grade === 'AA' ? "AA" : "RA";
+                resultCell.className = "p-1 sm:p-1.5 text-center font-black text-[10px] sm:text-xs text-red-600";
+            } else {
+                resultCell.innerText = "P";
+                resultCell.className = "p-1 sm:p-1.5 text-center font-black text-[10px] sm:text-xs text-green-600";
+            }
+            executeEngineCalculations();
+        }
+
+        function executeEngineCalculations() {
+            let aggregatedCredits = 0, aggregatedPointsProduct = 0;
+            let part3Credits = 0, part3PointsProduct = 0;
+
+            currentActiveDataset.forEach((course, index) => {
+                const gradeSelect = document.getElementById(`select-grade-${index}`);
+                const gradeValue = gradeSelect ? gradeSelect.value : "";
+                if (gradeValue) {
+                    const gradePoints = gradesMapping[gradeValue];
+                    aggregatedCredits += course.credit;
+                    aggregatedPointsProduct += (gradePoints * course.credit);
+
+                    if (course.part === 'III') {
+                        part3Credits += course.credit;
+                        part3PointsProduct += (gradePoints * course.credit);
+                    }
+                }
+            });
+
+            const overallCGPA = aggregatedCredits > 0 ? (aggregatedPointsProduct / aggregatedCredits).toFixed(2) : "0.00";
+            const part3Percentage = part3Credits > 0 ? ((part3PointsProduct / part3Credits) * 10).toFixed(1) : "0.0";
+
+            document.getElementById('live-cgpa').innerText = overallCGPA;
+            document.getElementById('live-part3').innerText = `${part3Percentage}%`;
+            document.getElementById('live-credits').innerText = `${aggregatedCredits}/144`;
+        }
+
+        function injectSubject() {
+            const input = document.getElementById('search-input');
+            const code = input.value.trim().toUpperCase();
+            if (!code) return;
+
+            const simulatedCourseNode = {
+                code: code,
+                title: `Injected Course (${code})`,
+                sem: 6,
+                part: 'III',
+                credit: 4
+            };
+
+            currentActiveDataset.push(simulatedCourseNode);
+            buildPortalInterface();
+            input.value = "";
+        }
+
+        function resetPortal() {
+            currentActiveDataset = [];
+            buildPortalInterface();
+            document.getElementById('student-name').value = "";
+            document.getElementById('reg-no').value = "";
+            document.getElementById('college-info').value = "";
+        }
+
+        window.onload = buildPortalInterface;
+    </script>
+</body>
+</html>

@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "@/lib/auth";
+// Auth is fully disabled for the public CGPA portal. The legacy /login,
+// /register and /dashboard routes are parked at `page.tsx.disabled` and the
+// AuthProvider wrapper is no longer mounted. To re-enable, restore those
+// filenames and reinstate the import + wrapper below.
+// import { AuthProvider } from "@/lib/auth";
 import { RouteListLogger } from "@/components/route-list-logger";
 
 const geistSans = Geist({
@@ -31,7 +35,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <RouteListLogger />
-        <AuthProvider>{children}</AuthProvider>
+        {children}
       </body>
     </html>
   );

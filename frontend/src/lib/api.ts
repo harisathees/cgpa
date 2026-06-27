@@ -46,6 +46,26 @@ export interface AdminUser {
   createdAt: string;
 }
 
+export interface CollegeEntry {
+  college_name: string;
+  website: string;
+}
+export type CollegesByDistrict = Record<string, CollegeEntry[]>;
+
+export interface DegreeEntry {
+  category: string;
+  degree: string;
+}
+
+export interface CourseEntry {
+  degree: string;
+  course_name: string;
+  credits: number;
+  code?: string;
+  sem?: number | string;
+  part?: string;
+}
+
 export class ApiError extends Error {
   constructor(
     message: string,
@@ -110,4 +130,12 @@ export const api = {
 
   // ADMIN endpoints
   listUsers: (token: string) => request<AdminUser[]>("/admin/users", { token }),
+
+  // PUBLIC catalog endpoints (used by the CGPA portal landing page)
+  listColleges: () => request<CollegesByDistrict>("/catalog/colleges"),
+  listDegrees: () => request<DegreeEntry[]>("/catalog/degrees"),
+  listCoursesForDegree: (degree: string) =>
+    request<CourseEntry[]>(
+      `/catalog/courses?degree=${encodeURIComponent(degree)}`,
+    ),
 };

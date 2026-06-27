@@ -19,7 +19,9 @@ export class AuthService {
     private readonly jwt: JwtService,
   ) {}
 
-  async register(dto: RegisterDto): Promise<{ accessToken: string; user: AuthUser }> {
+  async register(
+    dto: RegisterDto,
+  ): Promise<{ accessToken: string; user: AuthUser }> {
     const existing = await this.prisma.user.findUnique({
       where: { email: dto.email },
     });
@@ -31,7 +33,12 @@ export class AuthService {
     // Public sign-up always creates a normal USER. ADMINs are provisioned
     // only via the seed script (prisma/seed.ts).
     const user = await this.prisma.user.create({
-      data: { email: dto.email, passwordHash, fullName: dto.fullName, role: 'USER' },
+      data: {
+        email: dto.email,
+        passwordHash,
+        fullName: dto.fullName,
+        role: 'USER',
+      },
     });
 
     return this.sign(user);

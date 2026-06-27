@@ -23,10 +23,7 @@ export class SemestersController {
   }
 
   @Post()
-  create(
-    @CurrentUser('id') userId: string,
-    @Body() dto: CreateSemesterDto,
-  ) {
+  create(@CurrentUser('id') userId: string, @Body() dto: CreateSemesterDto) {
     return this.prisma.semester.create({
       data: { userId, name: dto.name, number: dto.number },
     });
